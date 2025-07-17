@@ -8,4 +8,4 @@ Nombree
  
 ## Integrantes:
 - Manuela Barrera
--
+- Julian Andrade
