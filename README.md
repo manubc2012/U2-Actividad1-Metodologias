@@ -8,4 +8,4 @@ Grupo 9
  
 ## Integrantes:
 - Manuela Barrera
--
+- Julian Andrade
