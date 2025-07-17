@@ -4,7 +4,7 @@ Repositorio para la realización de las actividades de la materia de Metodologí
 # Metodologías de desarrollo de software UPB
  
 ## Nombre del equipo 
-Nombree
+Grupo 9
  
 ## Integrantes:
 - Manuela Barrera
