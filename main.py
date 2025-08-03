@@ -1,16 +1,16 @@
-from backend.leer_productos import listar_productos
-from tabulate import tabulate
-def mostrar_productos():
-    productos = listar_productos()
-
-    if productos:
-        print("\n=== LISTADO DE PRODUCTOS ===")
-        print(tabulate(productos, headers="keys", tablefmt="fancy_grid"))
-    else:
-        print("No hay productos registrados o la hoja está vacía.")
+from frontend.menu import iniciar_aplicacion
 
 def main():
-    mostrar_productos()
+    """
+    Función principal que inicia la aplicación de gestión de productos
+    """
+    try:
+        iniciar_aplicacion()
+    except KeyboardInterrupt:
+        print("\n\nAplicación cerrada por el usuario!")
+    except Exception as e:
+        print(f"\nError inesperado: {e}")
+        print("Por favor, contacte al administrador del sistema.")
 
 if __name__ == "__main__":
     main()
