@@ -7,7 +7,7 @@ Durante la implementación de la funcionalidad de lectura de productos utilizand
 ## Dificultades Identificadas
 
 ### 1. **Dependencias entre Roles**
-- **Problema**: El frontend developer no pudo comenzar su trabajo hasta que el backend developer completara totalmente su parte.
+- **Problema**: El frontend developer no pudo comenzar su trabajo hasta que el backend developer completara su parte.
 - **Impacto**: Esto generó tiempos de espera y una secuencia muy rígida de desarrollo.
 - **Lección**: En proyectos reales, esta dependencia puede causar retrasos significativos si un miembro del equipo se atrasa.
 
@@ -21,12 +21,7 @@ Durante la implementación de la funcionalidad de lectura de productos utilizand
 - **Impacto**: Los errores se descubrieron tarde en el proceso, requiriendo más tiempo para corregirlos.
 - **Lección**: La metodología en cascada retrasa la detección de errores de integración.
 
-### 4. **Rigidez ante Cambios**
-- **Problema**: Cuando se identificó la necesidad de agregar funcionalidades adicionales (como estadísticas), fue difícil incorporarlas sin afectar el trabajo ya realizado.
-- **Impacto**: Requirió rehacer parte del trabajo del frontend.
-- **Lección**: La metodología en cascada es poco flexible ante cambios de requisitos.
-
-### 5. **Gestión de Archivos y Versionado**
+### 4. **Gestión de Archivos y Versionado**
 - **Problema**: Trabajar en ramas separadas sin integración continua causó conflictos al momento de unir el trabajo.
 - **Impacto**: Tiempo adicional invertido en resolver conflictos de merge.
 - **Lección**: Incluso en cascada, es importante tener estrategias de integración claras.
@@ -37,11 +32,7 @@ Durante la implementación de la funcionalidad de lectura de productos utilizand
 - Cada rol tenía responsabilidades muy bien definidas.
 - No hubo confusión sobre quién debía hacer qué tarea.
 
-### 2. **Documentación Clara**
-- Al seguir una secuencia definida, la documentación fue más estructurada.
-- Cada fase tuvo entregables específicos.
-
-### 3. **Facilidad de Planificación**
+### 2. **Facilidad de Planificación**
 - Los tiempos fueron más fáciles de estimar al tener fases bien definidas.
 
 ## Conclusiones
@@ -53,22 +44,9 @@ La metodología en cascada funcionó para este proyecto pequeño y con requisito
 3. **Dependencias bloqueantes**: Un retraso en una fase afecta todas las siguientes.
 4. **Poca colaboración**: Los roles trabajan de forma muy aislada.
 
-Para proyectos futuros, sería recomendable considerar metodologías más ágiles que permitan:
-- Desarrollo iterativo e incremental
-- Pruebas tempranas y continuas
-- Mayor colaboración entre roles
-- Flexibilidad ante cambios de requisitos
-
 ## Recomendaciones
 
 1. **Definir interfaces claras** desde el inicio del proyecto.
 2. **Establecer puntos de sincronización** regulares entre los roles.
 3. **Crear prototipos tempranos** para validar la integración.
-4. **Documentar decisiones de diseño** para facilitar futuras modificaciones.
-5. **Considerar metodologías híbridas** que combinen la estructura de cascada con la flexibilidad de metodologías ágiles.
 
----
-
-**Fecha de elaboración**: Agosto 2025  
-**Participantes**: [Nombres de los integrantes del equipo]  
-**Proyecto**: Sistema de Gestión de Productos - Funcionalidad de Lectura
